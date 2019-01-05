@@ -57,22 +57,9 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/tasks/Task.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/tasks/Task.cpp.o: ../tasks/Task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/tasks/Task.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/tasks/Task.cpp.o -c "/cygdrive/g/My Drive/data/coding/coding/tasks/Task.cpp"
-
-CMakeFiles/test.dir/tasks/Task.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/tasks/Task.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/g/My Drive/data/coding/coding/tasks/Task.cpp" > CMakeFiles/test.dir/tasks/Task.cpp.i
-
-CMakeFiles/test.dir/tasks/Task.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/tasks/Task.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/g/My Drive/data/coding/coding/tasks/Task.cpp" -o CMakeFiles/test.dir/tasks/Task.cpp.s
-
 CMakeFiles/test.dir/tasks/TaskA.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/tasks/TaskA.cpp.o: ../tasks/TaskA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/tasks/TaskA.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/tasks/TaskA.cpp.o"
 	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/tasks/TaskA.cpp.o -c "/cygdrive/g/My Drive/data/coding/coding/tasks/TaskA.cpp"
 
 CMakeFiles/test.dir/tasks/TaskA.cpp.i: cmake_force
@@ -83,16 +70,29 @@ CMakeFiles/test.dir/tasks/TaskA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/tasks/TaskA.cpp.s"
 	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/g/My Drive/data/coding/coding/tasks/TaskA.cpp" -o CMakeFiles/test.dir/tasks/TaskA.cpp.s
 
+CMakeFiles/test.dir/tasks/TaskB.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/tasks/TaskB.cpp.o: ../tasks/TaskB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/tasks/TaskB.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/tasks/TaskB.cpp.o -c "/cygdrive/g/My Drive/data/coding/coding/tasks/TaskB.cpp"
+
+CMakeFiles/test.dir/tasks/TaskB.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/tasks/TaskB.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/g/My Drive/data/coding/coding/tasks/TaskB.cpp" > CMakeFiles/test.dir/tasks/TaskB.cpp.i
+
+CMakeFiles/test.dir/tasks/TaskB.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/tasks/TaskB.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/g/My Drive/data/coding/coding/tasks/TaskB.cpp" -o CMakeFiles/test.dir/tasks/TaskB.cpp.s
+
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/tasks/Task.cpp.o" \
-"CMakeFiles/test.dir/tasks/TaskA.cpp.o"
+"CMakeFiles/test.dir/tasks/TaskA.cpp.o" \
+"CMakeFiles/test.dir/tasks/TaskB.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test.exe: CMakeFiles/test.dir/tasks/Task.cpp.o
 test.exe: CMakeFiles/test.dir/tasks/TaskA.cpp.o
+test.exe: CMakeFiles/test.dir/tasks/TaskB.cpp.o
 test.exe: CMakeFiles/test.dir/build.make
 test.exe: CMakeFiles/test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test.exe"

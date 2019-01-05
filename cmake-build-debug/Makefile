@@ -176,33 +176,6 @@ output/main.cpp.s:
 	$(MAKE) -f CMakeFiles/output.dir/build.make CMakeFiles/output.dir/output/main.cpp.s
 .PHONY : output/main.cpp.s
 
-tasks/Task.o: tasks/Task.cpp.o
-
-.PHONY : tasks/Task.o
-
-# target to build an object file
-tasks/Task.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/Task.cpp.o
-.PHONY : tasks/Task.cpp.o
-
-tasks/Task.i: tasks/Task.cpp.i
-
-.PHONY : tasks/Task.i
-
-# target to preprocess a source file
-tasks/Task.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/Task.cpp.i
-.PHONY : tasks/Task.cpp.i
-
-tasks/Task.s: tasks/Task.cpp.s
-
-.PHONY : tasks/Task.s
-
-# target to generate assembly for a file
-tasks/Task.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/Task.cpp.s
-.PHONY : tasks/Task.cpp.s
-
 tasks/TaskA.o: tasks/TaskA.cpp.o
 
 .PHONY : tasks/TaskA.o
@@ -229,6 +202,33 @@ tasks/TaskA.s: tasks/TaskA.cpp.s
 tasks/TaskA.cpp.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskA.cpp.s
 .PHONY : tasks/TaskA.cpp.s
+
+tasks/TaskB.o: tasks/TaskB.cpp.o
+
+.PHONY : tasks/TaskB.o
+
+# target to build an object file
+tasks/TaskB.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskB.cpp.o
+.PHONY : tasks/TaskB.cpp.o
+
+tasks/TaskB.i: tasks/TaskB.cpp.i
+
+.PHONY : tasks/TaskB.i
+
+# target to preprocess a source file
+tasks/TaskB.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskB.cpp.i
+.PHONY : tasks/TaskB.cpp.i
+
+tasks/TaskB.s: tasks/TaskB.cpp.s
+
+.PHONY : tasks/TaskB.s
+
+# target to generate assembly for a file
+tasks/TaskB.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskB.cpp.s
+.PHONY : tasks/TaskB.cpp.s
 
 testrunner/main.o: testrunner/main.cpp.o
 
@@ -271,12 +271,12 @@ help:
 	@echo "... output/main.o"
 	@echo "... output/main.i"
 	@echo "... output/main.s"
-	@echo "... tasks/Task.o"
-	@echo "... tasks/Task.i"
-	@echo "... tasks/Task.s"
 	@echo "... tasks/TaskA.o"
 	@echo "... tasks/TaskA.i"
 	@echo "... tasks/TaskA.s"
+	@echo "... tasks/TaskB.o"
+	@echo "... tasks/TaskB.i"
+	@echo "... tasks/TaskB.s"
 	@echo "... testrunner/main.o"
 	@echo "... testrunner/main.i"
 	@echo "... testrunner/main.s"

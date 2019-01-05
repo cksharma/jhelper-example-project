@@ -2,6 +2,8 @@
 
 int main() {
     %ClassName% solver;
+    %Input%
+    %Output%
     %SolverCall%
     return 0;
 }
