@@ -1,0 +1,5 @@
+/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles/test.dir
+/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles/output.dir
+/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles/testrunner.dir

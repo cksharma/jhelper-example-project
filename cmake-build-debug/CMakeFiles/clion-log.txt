@@ -1,0 +1,4 @@
+C:\Users\SharmaChandraKant\.CLion2018.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=C:/cygwin64/bin/g++.exe -G "CodeBlocks - Unix Makefiles" "/cygdrive/g/My Drive/data/coding/coding"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/g/My Drive/data/coding/coding/cmake-build-debug
