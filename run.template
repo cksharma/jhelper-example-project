@@ -39,10 +39,10 @@ int main() {
         std::cout << "Test #" << ++testID << std::endl;
         std::cout << test.input << std::endl;
         if (test.has_output) {
-            std::cout << "Expected output: " << test.output << std::endl;
+            std::cout << "Expected output: " << test.output;
         }
         else {
-            std::cout << "Expected output: " << "N/A" << std::endl;
+            std::cout << "\nExpected output: " << "N/A" << std::endl;
         }
         if (test.active) {
             std::stringstream in(test.input);
@@ -59,7 +59,7 @@ int main() {
                 allOK = allOK && result;
                 std::cout << "Result: " << (result ? "Correct answer" : "Wrong answer") << std::endl;
             } else {
-                std::cout << "OK, but is it right?" << std::endl;
+                std::cout << "Result: OK, but is it right?" << std::endl;
             }
         }
         else {
