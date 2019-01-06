@@ -1,4 +1,4 @@
-#include "G:/My Drive/data/coding/coding/tasks/TaskA.cpp"
+#include "G:/My Drive/data/coding/JHelperProject/tasks/AGennadyAndACardGame.cpp"
 
 #include <iostream>
 #include <fstream>
@@ -29,7 +29,7 @@ bool check(std::string expected, std::string actual) {
 
 int main() {
     std::vector<jhelper::Test> tests = {
-        {"AS\n2H 4C TH JH AD\n", "YES", true, true},{"2H\n3D 4C AC KD AS\n", "NO", true, true},{"4D\nAS AC AD AH 5H\n", "YES", true, true},
+        {"AS\n2H 4C TH JH AD\n", "YES", true, true},{"2H\n3D 4C AC KD AS\n", "NO\n", true, true},{"4D\nAS AC AD AH 5H\n", "YES", true, true},{"3D\n8S 4S 2C AS 6H", "NO", true, true},{"7H\nTC 4C KC AD 9S", "", true, false},
     };
     bool allOK = true;
     int testID = 0;
@@ -48,7 +48,7 @@ int main() {
             std::stringstream in(test.input);
             std::ostringstream out;
             std::clock_t start = std::clock();
-            TaskA solver;
+            AGennadyAndACardGame solver;
             solver.solve(in, out);
             std::clock_t finish = std::clock();
             double currentTime = double(finish - start) / CLOCKS_PER_SEC;
@@ -58,15 +58,17 @@ int main() {
                 bool result = jhelper::check(test.output, out.str());
                 allOK = allOK && result;
                 std::cout << "Result: " << (result ? "Correct answer" : "Wrong answer") << std::endl;
+            } else {
+                std::cout << "OK, but is it right?" << std::endl;
             }
         }
         else {
             std::cout << "SKIPPED\n";
         }
-        std::cout << "\n";
+        std::cout << "----------------------------------------------\n";
     }
     if(allOK) {
-        std::cout << "You're a stud (at least on the example cases)!" << std::endl;
+        std::cout << "\nYou're a stud (at least on the example cases)!" << std::endl;
     }
     else {
         std::cout << "Some of the test cases failed." << std::endl;

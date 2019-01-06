@@ -43,10 +43,10 @@ RM = /cygdrive/c/Users/SharmaChandraKant/.CLion2018.3/system/cygwin_cmake/bin/cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/g/My Drive/data/coding/coding"
+CMAKE_SOURCE_DIR = "/cygdrive/g/My Drive/data/coding/JHelperProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test.dir/depend.make
@@ -57,45 +57,30 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/tasks/TaskA.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/tasks/TaskA.cpp.o: ../tasks/TaskA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/tasks/TaskA.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/tasks/TaskA.cpp.o -c "/cygdrive/g/My Drive/data/coding/coding/tasks/TaskA.cpp"
+CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.o: ../tasks/AGennadyAndACardGame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.o -c "/cygdrive/g/My Drive/data/coding/JHelperProject/tasks/AGennadyAndACardGame.cpp"
 
-CMakeFiles/test.dir/tasks/TaskA.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/tasks/TaskA.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/g/My Drive/data/coding/coding/tasks/TaskA.cpp" > CMakeFiles/test.dir/tasks/TaskA.cpp.i
+CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/g/My Drive/data/coding/JHelperProject/tasks/AGennadyAndACardGame.cpp" > CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.i
 
-CMakeFiles/test.dir/tasks/TaskA.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/tasks/TaskA.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/g/My Drive/data/coding/coding/tasks/TaskA.cpp" -o CMakeFiles/test.dir/tasks/TaskA.cpp.s
-
-CMakeFiles/test.dir/tasks/TaskB.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/tasks/TaskB.cpp.o: ../tasks/TaskB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/tasks/TaskB.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/tasks/TaskB.cpp.o -c "/cygdrive/g/My Drive/data/coding/coding/tasks/TaskB.cpp"
-
-CMakeFiles/test.dir/tasks/TaskB.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/tasks/TaskB.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/g/My Drive/data/coding/coding/tasks/TaskB.cpp" > CMakeFiles/test.dir/tasks/TaskB.cpp.i
-
-CMakeFiles/test.dir/tasks/TaskB.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/tasks/TaskB.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/g/My Drive/data/coding/coding/tasks/TaskB.cpp" -o CMakeFiles/test.dir/tasks/TaskB.cpp.s
+CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/g/My Drive/data/coding/JHelperProject/tasks/AGennadyAndACardGame.cpp" -o CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.s
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/tasks/TaskA.cpp.o" \
-"CMakeFiles/test.dir/tasks/TaskB.cpp.o"
+"CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test.exe: CMakeFiles/test.dir/tasks/TaskA.cpp.o
-test.exe: CMakeFiles/test.dir/tasks/TaskB.cpp.o
+test.exe: CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.o
 test.exe: CMakeFiles/test.dir/build.make
 test.exe: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +93,6 @@ CMakeFiles/test.dir/clean:
 .PHONY : CMakeFiles/test.dir/clean
 
 CMakeFiles/test.dir/depend:
-	cd "/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/g/My Drive/data/coding/coding" "/cygdrive/g/My Drive/data/coding/coding" "/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug" "/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug" "/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles/test.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/g/My Drive/data/coding/JHelperProject" "/cygdrive/g/My Drive/data/coding/JHelperProject" "/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug" "/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug" "/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug/CMakeFiles/test.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/test.dir/depend
 

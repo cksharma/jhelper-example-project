@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/SharmaChandraKant/.CLion2018.3/system/cygwin_cmake/bin/cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/g/My Drive/data/coding/coding"
+CMAKE_SOURCE_DIR = "/cygdrive/g/My Drive/data/coding/JHelperProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles" "/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug/CMakeFiles" "/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -176,59 +176,32 @@ output/main.cpp.s:
 	$(MAKE) -f CMakeFiles/output.dir/build.make CMakeFiles/output.dir/output/main.cpp.s
 .PHONY : output/main.cpp.s
 
-tasks/TaskA.o: tasks/TaskA.cpp.o
+tasks/AGennadyAndACardGame.o: tasks/AGennadyAndACardGame.cpp.o
 
-.PHONY : tasks/TaskA.o
-
-# target to build an object file
-tasks/TaskA.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskA.cpp.o
-.PHONY : tasks/TaskA.cpp.o
-
-tasks/TaskA.i: tasks/TaskA.cpp.i
-
-.PHONY : tasks/TaskA.i
-
-# target to preprocess a source file
-tasks/TaskA.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskA.cpp.i
-.PHONY : tasks/TaskA.cpp.i
-
-tasks/TaskA.s: tasks/TaskA.cpp.s
-
-.PHONY : tasks/TaskA.s
-
-# target to generate assembly for a file
-tasks/TaskA.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskA.cpp.s
-.PHONY : tasks/TaskA.cpp.s
-
-tasks/TaskB.o: tasks/TaskB.cpp.o
-
-.PHONY : tasks/TaskB.o
+.PHONY : tasks/AGennadyAndACardGame.o
 
 # target to build an object file
-tasks/TaskB.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskB.cpp.o
-.PHONY : tasks/TaskB.cpp.o
+tasks/AGennadyAndACardGame.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.o
+.PHONY : tasks/AGennadyAndACardGame.cpp.o
 
-tasks/TaskB.i: tasks/TaskB.cpp.i
+tasks/AGennadyAndACardGame.i: tasks/AGennadyAndACardGame.cpp.i
 
-.PHONY : tasks/TaskB.i
+.PHONY : tasks/AGennadyAndACardGame.i
 
 # target to preprocess a source file
-tasks/TaskB.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskB.cpp.i
-.PHONY : tasks/TaskB.cpp.i
+tasks/AGennadyAndACardGame.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.i
+.PHONY : tasks/AGennadyAndACardGame.cpp.i
 
-tasks/TaskB.s: tasks/TaskB.cpp.s
+tasks/AGennadyAndACardGame.s: tasks/AGennadyAndACardGame.cpp.s
 
-.PHONY : tasks/TaskB.s
+.PHONY : tasks/AGennadyAndACardGame.s
 
 # target to generate assembly for a file
-tasks/TaskB.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/TaskB.cpp.s
-.PHONY : tasks/TaskB.cpp.s
+tasks/AGennadyAndACardGame.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tasks/AGennadyAndACardGame.cpp.s
+.PHONY : tasks/AGennadyAndACardGame.cpp.s
 
 testrunner/main.o: testrunner/main.cpp.o
 
@@ -271,12 +244,9 @@ help:
 	@echo "... output/main.o"
 	@echo "... output/main.i"
 	@echo "... output/main.s"
-	@echo "... tasks/TaskA.o"
-	@echo "... tasks/TaskA.i"
-	@echo "... tasks/TaskA.s"
-	@echo "... tasks/TaskB.o"
-	@echo "... tasks/TaskB.i"
-	@echo "... tasks/TaskB.s"
+	@echo "... tasks/AGennadyAndACardGame.o"
+	@echo "... tasks/AGennadyAndACardGame.i"
+	@echo "... tasks/AGennadyAndACardGame.s"
 	@echo "... testrunner/main.o"
 	@echo "... testrunner/main.i"
 	@echo "... testrunner/main.s"

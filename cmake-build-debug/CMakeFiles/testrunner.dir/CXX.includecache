@@ -6,8 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/g/My Drive/data/coding/coding/testrunner/main.cpp
-G:/My Drive/data/coding/coding/tasks/TaskA.cpp
+/cygdrive/g/My Drive/data/coding/JHelperProject/testrunner/main.cpp
+G:/My Drive/data/coding/JHelperProject/tasks/AGennadyAndACardGame.cpp
 -
 iostream
 -
@@ -24,7 +24,7 @@ cctype
 ctime
 -
 
-G:/My Drive/data/coding/coding/tasks/TaskA.cpp
+G:/My Drive/data/coding/JHelperProject/tasks/AGennadyAndACardGame.cpp
 bits/stdc++.h
 -
 

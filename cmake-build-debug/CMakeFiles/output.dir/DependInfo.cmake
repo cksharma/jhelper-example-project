@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/g/My Drive/data/coding/coding/output/main.cpp" "/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/CMakeFiles/output.dir/output/main.cpp.o"
+  "/cygdrive/g/My Drive/data/coding/JHelperProject/output/main.cpp" "/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug/CMakeFiles/output.dir/output/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

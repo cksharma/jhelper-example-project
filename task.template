@@ -3,7 +3,9 @@ using namespace std;
 
 class %ClassName% {
 public:
-    void solve(istream& in, ostream& out) {
-        
+    void solve(istream& cin, ostream& cout) {
+        ios_base::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);
+        cout.setf(ios::fixed); cout.precision(20);
+
     }
 };

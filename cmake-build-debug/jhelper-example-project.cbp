@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test">
-				<Option output="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug"/>
+				<Option output="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test/fast">
-				<Option output="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug"/>
+				<Option output="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,15 +73,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="output">
-				<Option output="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/output.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug"/>
+				<Option output="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug/output.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -94,15 +94,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 output"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 output"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="output/fast">
-				<Option output="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/output.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug"/>
+				<Option output="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug/output.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -115,15 +115,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 output/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 output/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testrunner">
-				<Option output="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/testrunner.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug"/>
+				<Option output="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug/testrunner.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -136,15 +136,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 testrunner"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 testrunner"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testrunner/fast">
-				<Option output="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug/testrunner.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/g/My Drive/data/coding/coding/cmake-build-debug"/>
+				<Option output="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug/testrunner.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/g/My Drive/data/coding/JHelperProject/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -157,26 +157,23 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 testrunner/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 testrunner/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/My\ Drive/data/coding/JHelperProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/g/My Drive/data/coding/coding/output/main.cpp">
+		<Unit filename="/cygdrive/g/My Drive/data/coding/JHelperProject/output/main.cpp">
 			<Option target="output"/>
 		</Unit>
-		<Unit filename="/cygdrive/g/My Drive/data/coding/coding/tasks/TaskA.cpp">
+		<Unit filename="/cygdrive/g/My Drive/data/coding/JHelperProject/tasks/AGennadyAndACardGame.cpp">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="/cygdrive/g/My Drive/data/coding/coding/tasks/TaskB.cpp">
-			<Option target="test"/>
-		</Unit>
-		<Unit filename="/cygdrive/g/My Drive/data/coding/coding/testrunner/main.cpp">
+		<Unit filename="/cygdrive/g/My Drive/data/coding/JHelperProject/testrunner/main.cpp">
 			<Option target="testrunner"/>
 		</Unit>
-		<Unit filename="/cygdrive/g/My Drive/data/coding/coding/CMakeLists.txt">
+		<Unit filename="/cygdrive/g/My Drive/data/coding/JHelperProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

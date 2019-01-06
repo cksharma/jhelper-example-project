@@ -58,15 +58,17 @@ int main() {
                 bool result = jhelper::check(test.output, out.str());
                 allOK = allOK && result;
                 std::cout << "Result: " << (result ? "Correct answer" : "Wrong answer") << std::endl;
+            } else {
+                std::cout << "OK, but is it right?" << std::endl;
             }
         }
         else {
             std::cout << "SKIPPED\n";
         }
-        std::cout << "\n";
+        std::cout << "----------------------------------------------\n";
     }
     if(allOK) {
-        std::cout << "You're a stud (at least on the example cases)!" << std::endl;
+        std::cout << "\nYou're a stud (at least on the example cases)!" << std::endl;
     }
     else {
         std::cout << "Some of the test cases failed." << std::endl;
